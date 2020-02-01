@@ -154,7 +154,7 @@
             "Key": "5c1ea3f1-96a9-42d0-9bef-f1369bfb7dbf",
             "Value": {
                 "id": "3e19634d-3e92-4082-b005-d5946a7efdf4",
-                "resourcePath": "sprites\/Seed\/Seed.yy",
+                "resourcePath": "sprites\/Lol\/Lol.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -204,6 +204,14 @@
                 "id": "62c344aa-9ea9-4d70-9430-c07b6e649b40",
                 "resourcePath": "views\/81a71ce2-96f3-4870-ba40-1e0a8e044d2c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8c533e7b-49cc-4d3e-8a89-c8f3ae0d0bf8",
+            "Value": {
+                "id": "de64777a-b1e4-403d-a318-09cdb525eccb",
+                "resourcePath": "objects\/oSeed\/oSeed.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -279,11 +287,27 @@
             }
         },
         {
+            "Key": "a735a7a6-58e6-4ee2-806d-23d6d8fe704f",
+            "Value": {
+                "id": "34bf00f2-0a7f-4fbc-a740-b30df7c9c7c3",
+                "resourcePath": "objects\/oTile\/oTile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "fdbfb5c6-c5cb-40fa-b531-ded0304669ae",
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a9ed01ad-f412-4353-8190-9dfbb1159405",
+            "Value": {
+                "id": "624fc7ca-8047-4f93-bbca-599d8b71df2d",
+                "resourcePath": "sprites\/Seed\/Seed.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -314,7 +338,7 @@
             "Key": "cdedaf9f-9851-4ff5-a6a7-5e10f0466c5c",
             "Value": {
                 "id": "9659bf94-2336-4934-a603-3a22fcfda25d",
-                "resourcePath": "objects\/object3\/object3.yy",
+                "resourcePath": "objects\/oBackgroundTree\/oBackgroundTree.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -338,7 +362,7 @@
             "Key": "dd9a5d2b-2abf-4b80-bb9c-d042a915c4a2",
             "Value": {
                 "id": "b9116994-9a10-43d8-8b10-a9ca67e36d06",
-                "resourcePath": "objects\/object1\/object1.yy",
+                "resourcePath": "objects\/oBucket\/oBucket.yy",
                 "resourceType": "GMObject"
             }
         },

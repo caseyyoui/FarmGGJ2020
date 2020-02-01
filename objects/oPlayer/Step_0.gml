@@ -37,6 +37,8 @@ if (place_meeting(x,y,oInteractable) && gamepad_button_check_pressed(controllerI
 	inventory = inst;
 }
 
+
+
 if (inventory != -1 &&  gamepad_button_check_pressed(controllerID, gp_face3)) {
 	inventory.owner = -1;
 	inventory = -1;
