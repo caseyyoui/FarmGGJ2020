@@ -55,6 +55,22 @@
             }
         },
         {
+            "Key": "072783a1-44ea-4f14-962c-e22185c5c16d",
+            "Value": {
+                "id": "8d26a94b-a445-4b26-a551-70ea1ea34e82",
+                "resourcePath": "sprites\/sWeedSeed\/sWeedSeed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "083152c6-2bdb-4b5b-a581-3b7c5519aee6",
+            "Value": {
+                "id": "71ce3e92-58c5-4a73-b656-b71e70eac2df",
+                "resourcePath": "sprites\/sSeed\/sSeed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "087b453a-fe04-4d53-a886-4c091d4c35bb",
             "Value": {
                 "id": "1e21ffac-ee9b-4415-9b18-fd016665a330",
@@ -84,6 +100,14 @@
                 "id": "4f079d22-ed9c-409e-a1a9-0c8d1ca3fcd8",
                 "resourcePath": "views\/0d3ab815-d5e7-4b2c-ba80-1ef485cb5064.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "17ba75ee-f0db-402f-a393-526435ed4b46",
+            "Value": {
+                "id": "d7656eba-0527-467f-8b74-f0e44ef96b09",
+                "resourcePath": "objects\/oWeedSeed\/oWeedSeed.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -135,6 +159,14 @@
             }
         },
         {
+            "Key": "4ef25294-f42d-45bf-8dbd-39c2099ae9d6",
+            "Value": {
+                "id": "a6705e95-0f82-4301-a3c2-a2d521adb4e3",
+                "resourcePath": "sprites\/sShovel\/sShovel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5009ec7c-0185-4b56-88bb-819315036fe1",
             "Value": {
                 "id": "a10f519a-baaf-402c-aa64-433e1ec40bf0",
@@ -175,6 +207,14 @@
             }
         },
         {
+            "Key": "61dc1519-716d-40de-bfbb-0384a66df8cf",
+            "Value": {
+                "id": "016c6a52-e0a5-4ccf-815e-f88629692be2",
+                "resourcePath": "objects\/oSeed\/oSeed.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "719eb40d-c0c7-4c9c-8084-f8e06a34249b",
             "Value": {
                 "id": "a4220cc0-4030-4e90-89a4-e221e156d108",
@@ -196,6 +236,14 @@
                 "id": "e9437cbb-84c7-4b64-9890-5e7995fbcdd5",
                 "resourcePath": "options\/html5\/options_html5.yy",
                 "resourceType": "GMHtml5Options"
+            }
+        },
+        {
+            "Key": "7916f282-5eb0-4f6d-8457-42314b73ad46",
+            "Value": {
+                "id": "200612d2-bf24-4fff-8994-2eb17facbc8e",
+                "resourcePath": "objects\/oShovel\/oShovel.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -388,6 +436,14 @@
                 "id": "48fad455-accf-4ae3-81fc-23d8fee1e9a4",
                 "resourcePath": "sprites\/DarkPlot\/DarkPlot.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e664b738-1237-4de3-aec4-a43186f1d32c",
+            "Value": {
+                "id": "2089c60c-217b-43c0-926f-a906516c4148",
+                "resourcePath": "objects\/oShopItem\/oShopItem.yy",
+                "resourceType": "GMObject"
             }
         },
         {

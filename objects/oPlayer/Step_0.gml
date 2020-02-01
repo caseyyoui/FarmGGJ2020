@@ -36,6 +36,16 @@ if (place_meeting(x,y,oInteractable) && gamepad_button_check_pressed(controllerI
 	inst.owner = id;
 	inventory = inst;
 }
+else if (place_meeting(x,y,oShopItem) && gamepad_button_check_pressed(controllerID, gp_face1)){
+	var shopItem = instance_place(x,y,oShopItem);
+	var currency = 0;
+	if (currency >= shopItem.price){
+		var inst = instance_create_depth(x,y,0,shopItem.item)
+		inst.owner = id;
+		inventory = inst;
+	}
+	
+}
 
 
 
