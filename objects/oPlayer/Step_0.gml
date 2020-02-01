@@ -31,19 +31,30 @@ else if (dy > 0.5)
 x += dx * movementSpeed;
 y += dy * movementSpeed;
 
+//picks up a non-shop item
 if (place_meeting(x,y,oInteractable) && gamepad_button_check_pressed(controllerID, gp_face1)){
-	var inst = instance_place(x,y,oInteractable)
-	inst.owner = id;
-	inventory = inst;
-}
-else if (place_meeting(x,y,oShopItem) && gamepad_button_check_pressed(controllerID, gp_face1)){
-	var shopItem = instance_place(x,y,oShopItem);
-	var currency = 0;
-	if (currency >= shopItem.price){
-		var inst = instance_create_depth(x,y,0,shopItem.item)
+	if (inventory==-1)// hand is empty
+	{
+		var inst = instance_place(x,y,oInteractable)
 		inst.owner = id;
 		inventory = inst;
 	}
+}
+
+// picks up from shop
+else if (place_meeting(x,y,oShopItem) && gamepad_button_check_pressed(controllerID, gp_face1)){
+	if (inventory==-1)// hand is empty
+	{
+		var shopItem = instance_place(x,y,oShopItem);
+	
+		if (availableCurrency >= shopItem.price){
+			availableCurrency -= shopItem.price;
+			var inst = instance_create_depth(x,y,0,shopItem.item)
+			inst.owner = id;
+			inventory = inst;
+		}
+	}
+	
 	
 }
 
