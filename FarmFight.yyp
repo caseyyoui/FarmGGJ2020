@@ -39,11 +39,35 @@
             }
         },
         {
+            "Key": "06e6893e-d23b-4de0-abfe-fe7c99e8dd17",
+            "Value": {
+                "id": "798bc30a-1bd3-4381-8059-f7a497510d43",
+                "resourcePath": "sprites\/tree5\/tree5.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "087b453a-fe04-4d53-a886-4c091d4c35bb",
             "Value": {
                 "id": "1e21ffac-ee9b-4415-9b18-fd016665a330",
                 "resourcePath": "views\/087b453a-fe04-4d53-a886-4c091d4c35bb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "08a19f30-3593-40ea-ae32-af5a29e7c0d5",
+            "Value": {
+                "id": "dd581078-ae50-4aac-b00e-2935d2b3f79c",
+                "resourcePath": "sprites\/sprite8\/sprite8.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "08c539ee-3834-4558-9805-d2dd382a8396",
+            "Value": {
+                "id": "1d5909e5-2b3f-4a28-938e-6a0bc3742eb8",
+                "resourcePath": "sprites\/Leafs\/Leafs.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -55,11 +79,11 @@
             }
         },
         {
-            "Key": "21abe790-b27a-4992-81eb-00cb52f4658a",
+            "Key": "23e9c031-bde1-4c9c-890a-bad5283eb44f",
             "Value": {
-                "id": "94c7b431-28e2-478d-b65c-dbad69839854",
-                "resourcePath": "sprites\/sprite4\/sprite4.yy",
-                "resourceType": "GMSprite"
+                "id": "39fba150-69a5-4d79-a612-2ec6991813c2",
+                "resourcePath": "objects\/object2\/object2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -100,6 +124,14 @@
                 "id": "8d50fde1-1552-4cd6-b9e1-a2bdbc1e7647",
                 "resourcePath": "views\/4c2e0b8d-45da-4f3f-b9da-99090519bf55.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5009ec7c-0185-4b56-88bb-819315036fe1",
+            "Value": {
+                "id": "a10f519a-baaf-402c-aa64-433e1ec40bf0",
+                "resourcePath": "sprites\/bush\/bush.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -175,6 +207,14 @@
             }
         },
         {
+            "Key": "963bf6ab-0985-401f-afad-10797560f158",
+            "Value": {
+                "id": "3b8d62a2-be47-4020-9085-08e6b909f350",
+                "resourcePath": "sprites\/sprite9\/sprite9.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9e82d35e-3374-446c-9d8d-5ae85374bb9a",
             "Value": {
                 "id": "39945d22-34bc-46c9-bef3-39f942db47a5",
@@ -231,6 +271,14 @@
             }
         },
         {
+            "Key": "cdedaf9f-9851-4ff5-a6a7-5e10f0466c5c",
+            "Value": {
+                "id": "9659bf94-2336-4934-a603-3a22fcfda25d",
+                "resourcePath": "objects\/object3\/object3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ceb41c3a-ea71-4b12-a8a4-bfabc2e6ebe5",
             "Value": {
                 "id": "a43ef4ac-b280-40ef-8677-5d2ff8929423",
@@ -244,6 +292,22 @@
                 "id": "0ba15c7e-e09a-481d-afcc-8428f4a162fd",
                 "resourcePath": "views\/dcb07dff-ff1f-4249-a9da-38c930f8fbd3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dd9a5d2b-2abf-4b80-bb9c-d042a915c4a2",
+            "Value": {
+                "id": "b9116994-9a10-43d8-8b10-a9ca67e36d06",
+                "resourcePath": "objects\/object1\/object1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e49b917f-7e6b-41ee-bcfe-f6fc228b42c5",
+            "Value": {
+                "id": "fe9c7d91-f7ee-4896-916b-c6936f2b47a3",
+                "resourcePath": "sprites\/sprite10\/sprite10.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
