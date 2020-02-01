@@ -36,3 +36,15 @@ if (inventory != -1 &&  gamepad_button_check_pressed(controllerID, gp_face3)) {
 	inventory = -1;
 }
 
+
+//Money stuff
+
+currencyUpdate -= delta_time / 1000000
+
+if(currencyUpdate < 0)
+{
+	availableCurrency++;
+	currencyUpdate += currencyRate;
+}
+
+
