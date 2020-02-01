@@ -39,18 +39,18 @@
             }
         },
         {
-            "Key": "06e6893e-d23b-4de0-abfe-fe7c99e8dd17",
-            "Value": {
-                "id": "798bc30a-1bd3-4381-8059-f7a497510d43",
-                "resourcePath": "sprites\/tree5\/tree5.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "022caa07-3a34-436d-b1eb-36718574c35a",
             "Value": {
                 "id": "4488fe53-ec73-4ccf-a5c6-7ba5ec5e7691",
                 "resourcePath": "sprites\/sCaseyLeft\/sCaseyLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "06e6893e-d23b-4de0-abfe-fe7c99e8dd17",
+            "Value": {
+                "id": "798bc30a-1bd3-4381-8059-f7a497510d43",
+                "resourcePath": "sprites\/tree5\/tree5.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "1e0751c6-8663-475a-8e9c-656fb3578ac8",
+            "Value": {
+                "id": "c7aca6dd-dd83-4565-a52d-1d3ad5b69709",
+                "resourcePath": "objects\/oDarkPlot\/oDarkPlot.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "23e9c031-bde1-4c9c-890a-bad5283eb44f",
             "Value": {
                 "id": "39fba150-69a5-4d79-a612-2ec6991813c2",
@@ -100,14 +108,6 @@
                 "id": "bb0fff58-8a54-4354-9f89-bfed0b8a17b6",
                 "resourcePath": "sprites\/grass2\/grass2.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "1e0751c6-8663-475a-8e9c-656fb3578ac8",
-            "Value": {
-                "id": "c7aca6dd-dd83-4565-a52d-1d3ad5b69709",
-                "resourcePath": "objects\/oDarkPlot\/oDarkPlot.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -151,18 +151,18 @@
             }
         },
         {
-            "Key": "5d0f3981-53e9-4c05-bd69-0dfff3d475b9",
-            "Value": {
-                "id": "db599edb-3d79-4127-8a11-e62195abbc58",
-                "resourcePath": "sprites\/grass3\/grass3.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "5c1ea3f1-96a9-42d0-9bef-f1369bfb7dbf",
             "Value": {
                 "id": "3e19634d-3e92-4082-b005-d5946a7efdf4",
                 "resourcePath": "sprites\/Seed\/Seed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5d0f3981-53e9-4c05-bd69-0dfff3d475b9",
+            "Value": {
+                "id": "db599edb-3d79-4127-8a11-e62195abbc58",
+                "resourcePath": "sprites\/grass3\/grass3.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -231,14 +231,6 @@
             }
         },
         {
-            "Key": "9ee128e9-cccb-4a54-8e07-41bb51a5094d",
-            "Value": {
-                "id": "621e177b-29be-4e54-8d90-9d06e54cc1ac",
-                "resourcePath": "sprites\/sCaseyBack\/sCaseyBack.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "963bf6ab-0985-401f-afad-10797560f158",
             "Value": {
                 "id": "3b8d62a2-be47-4020-9085-08e6b909f350",
@@ -252,6 +244,14 @@
                 "id": "39945d22-34bc-46c9-bef3-39f942db47a5",
                 "resourcePath": "tilesets\/tileset0\/tileset0.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "9ee128e9-cccb-4a54-8e07-41bb51a5094d",
+            "Value": {
+                "id": "621e177b-29be-4e54-8d90-9d06e54cc1ac",
+                "resourcePath": "sprites\/sCaseyBack\/sCaseyBack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "e1ac1da6-3d1f-42bb-955e-22ce4aa300ed",
+            "Value": {
+                "id": "d4d40dc7-3099-4486-b820-36d96c9882db",
+                "resourcePath": "sprites\/LightPlot\/LightPlot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e49b917f-7e6b-41ee-bcfe-f6fc228b42c5",
             "Value": {
                 "id": "fe9c7d91-f7ee-4896-916b-c6936f2b47a3",
@@ -355,14 +363,6 @@
             "Value": {
                 "id": "80c57d2b-4a79-4947-82a9-6a94d6136c3c",
                 "resourcePath": "sprites\/grass1\/grass1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "e1ac1da6-3d1f-42bb-955e-22ce4aa300ed",
-            "Value": {
-                "id": "d4d40dc7-3099-4486-b820-36d96c9882db",
-                "resourcePath": "sprites\/LightPlot\/LightPlot.yy",
                 "resourceType": "GMSprite"
             }
         },
