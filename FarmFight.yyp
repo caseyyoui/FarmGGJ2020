@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "8d68ccb9-afdb-4392-a152-6b640671c121",
+            "Value": {
+                "id": "dd1400a4-ad6e-4052-bfaa-ee85643f8e4a",
+                "resourcePath": "objects\/oAlert\/oAlert.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8f5a34e6-3c2a-40f9-baaf-bb3e53a9874c",
             "Value": {
                 "id": "c096c85f-8426-4fc5-bb63-950e638eae92",
