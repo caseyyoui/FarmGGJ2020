@@ -17,3 +17,8 @@ adx = 0;
 ady = 0;
 
 stunTimer = -1;
+
+sprite_index = asset_get_index("s" + (controllerID == 0 ? "Casey" : "Anne") + "Front");
+
+if(!audio_is_playing(snd_song))
+	audio_play_sound(snd_song,0,true);

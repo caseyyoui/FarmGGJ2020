@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "118fe276-3f9f-4238-bb7b-fc05c5a9eeca",
+            "Value": {
+                "id": "e11007df-290f-456f-a18d-98a3c87a0748",
+                "resourcePath": "sprites\/sAnneRight\/sAnneRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "168ccffe-4d90-410c-8d0a-e5a06cb58c72",
             "Value": {
                 "id": "15ed4a16-e89f-4771-9413-3e24eb9617cc",
@@ -207,6 +215,14 @@
             }
         },
         {
+            "Key": "48bdfda9-a4a7-4a2c-a18f-39ec7b00cc90",
+            "Value": {
+                "id": "9327e02d-4f96-4453-9673-2956a4055b3b",
+                "resourcePath": "sprites\/sAnneLeft\/sAnneLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4b55ac14-765c-4095-9e86-4650f512a62e",
             "Value": {
                 "id": "53d555f2-a6e0-4799-989e-2b28ad1d5550",
@@ -244,6 +260,22 @@
                 "id": "a10f519a-baaf-402c-aa64-433e1ec40bf0",
                 "resourcePath": "sprites\/bush\/bush.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5684916f-4e00-4773-bf83-1f1d68330005",
+            "Value": {
+                "id": "f6752d8d-2e86-44cf-9ea8-2c010f4cdb3d",
+                "resourcePath": "sounds\/snd_throw\/snd_throw.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "5702f4e5-c2d7-433c-8d1a-47bd762cba0a",
+            "Value": {
+                "id": "730e934e-91f1-4f55-9c1c-6803f208c0a1",
+                "resourcePath": "sounds\/snd_song\/snd_song.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -479,6 +511,14 @@
             }
         },
         {
+            "Key": "a26345c5-c9a1-4157-9fae-2d4f3e0996d1",
+            "Value": {
+                "id": "35e0014f-8146-41b7-8f6b-33c30022a1c4",
+                "resourcePath": "sprites\/sAnneBack\/sAnneBack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a334acb4-5258-40f4-b1ec-38f1b39a3628",
             "Value": {
                 "id": "c5c770f0-382e-496b-87ee-ef559a6f5dbb",
@@ -499,6 +539,14 @@
             "Value": {
                 "id": "dd295ac0-cc86-4d9e-8685-e322a6fc78fa",
                 "resourcePath": "sprites\/sprite31\/sprite31.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a9c64662-bf3c-49c6-9906-cc91a17e649c",
+            "Value": {
+                "id": "fed08f18-9f45-4f93-8afe-f444e881a3d6",
+                "resourcePath": "sprites\/sAnneFront\/sAnneFront.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -684,6 +732,14 @@
                 "id": "f68a8d5f-3cd9-47a1-b3f1-a689e220fcc8",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f67889dd-f1e5-4756-9142-b1be2b4a9fb5",
+            "Value": {
+                "id": "5031ba3d-586c-4781-bdb0-3e33a0424585",
+                "resourcePath": "sounds\/snd_grow\/snd_grow.yy",
+                "resourceType": "GMSound"
             }
         },
         {

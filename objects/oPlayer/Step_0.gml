@@ -38,20 +38,20 @@ if(abs(dy) < .1)
 
 if(dx < -0.5)
 {
-	sprite_index = sCaseyLeft
+	sprite_index = asset_get_index("s" + (controllerID == 0 ? "Casey" : "Anne") + "Left");
 }
 else if (dx > 0.5)
 {
-	sprite_index = sCaseyRight
+	sprite_index = asset_get_index("s" + (controllerID == 0 ? "Casey" : "Anne") + "Right");
 }
 
 if(dy < -0.5)
 {
-	sprite_index = sCaseyBack
+	sprite_index = asset_get_index("s" + (controllerID == 0 ? "Casey" : "Anne") + "Back");
 }
 else if (dy > 0.5)
 {
-	sprite_index = sCaseyFront
+	sprite_index = asset_get_index("s" + (controllerID == 0 ? "Casey" : "Anne") + "Front");
 }
 px = x;
 x += dx * movementSpeed;
@@ -66,7 +66,11 @@ if (alert>-1){
 	alert.anchor_x = x+alert_offset_x
 	alert.anchor_y = y+alert_offset_y
 }
-if (inventory !=-1){
+
+if(!instance_exists(inventory))
+	inventory = -1;
+
+if (inventory != -1 && inventory != noone){
 	if (inventory.name == "Bucket"){
 		if (place_meeting(inventory.x, inventory.y, oWell)&& gamepad_button_check_pressed(controllerID, gp_face1)){
 			inventory.filled = true
@@ -116,6 +120,18 @@ else if (place_meeting(x,y,oInteractable)
 	}
 }
 
+// uprooting
+if(inventory.object_index == oShovel && gamepad_button_check_pressed(controllerID, gp_face1))
+{
+	var inst = instance_place(x,y,oWeed);
+	if(inst != noone)
+	{
+		instance_destroy(inventory);
+		instance_destroy(inst);
+		inventory = -1;
+	}
+}
+
 // picks up from shop
 if (place_meeting(x,y,oShopItem) && (keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(controllerID, gp_face1))){
 	if (inventory==-1)// hand is empty
@@ -157,6 +173,8 @@ if (inventory != -1 && gamepad_button_check_pressed(controllerID, gp_shoulderrb)
 	inventory.thrown = true;
 	inventory.owner = -1;
 	inventory = -1;
+	var snd = audio_play_sound(snd_throw,0,false);
+	audio_sound_pitch(snd, random_range(.75,1.25));
 }
 
 // dropping
