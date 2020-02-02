@@ -24,6 +24,7 @@ if(thrown)
 				{
 					instance_destroy( inst.plant)
 					inst.plant = -1
+					instance_destroy();
 				}
 			}			
 		}
