@@ -591,6 +591,14 @@
             }
         },
         {
+            "Key": "eb3fa302-8e63-4163-aee5-b0789dc451a2",
+            "Value": {
+                "id": "b928b5c9-67cb-438f-b02c-1ab6b2d8afa2",
+                "resourcePath": "sprites\/IdleSunflower\/IdleSunflower.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f2bfed39-6521-4d2b-a302-c122e945c07f",
             "Value": {
                 "id": "c0293586-55fe-4ab7-9390-ae9c8086aa36",
