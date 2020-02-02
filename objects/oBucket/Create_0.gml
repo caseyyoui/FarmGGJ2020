@@ -1,11 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-if (limit!=-1){
-	if (numLeft <= 0){
-		visible=false
-	}
-	else{
-		visible=true
-	}
-}
+event_inherited()
+spawnRef = -1
+name = "Bucket"
+filled  = false

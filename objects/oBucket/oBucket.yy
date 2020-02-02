@@ -4,7 +4,36 @@
     "mvc": "1.0",
     "name": "oBucket",
     "eventList": [
-        
+        {
+            "id": "209b9b56-7380-45c9-add6-c5090be762f3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "2a493eb5-0e1b-4b21-8c8b-0b1a62aab432"
+        },
+        {
+            "id": "54063320-18fe-409a-8234-3e2770c5b412",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
+            "m_owner": "2a493eb5-0e1b-4b21-8c8b-0b1a62aab432"
+        },
+        {
+            "id": "bab23df0-5b62-4c77-a911-79e6ea2893ac",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "2a493eb5-0e1b-4b21-8c8b-0b1a62aab432"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
