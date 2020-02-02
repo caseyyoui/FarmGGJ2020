@@ -94,6 +94,7 @@ if(inventory != -1 && gamepad_button_check_pressed(controllerID, gp_face1))
 			inventory.x = inst.x + inst.sprite_width / 2
 			inventory.y = inst.y + inst.sprite_height / 2
 			inventory = -1
+			inventory.dropped_time = 0;
 		}
 	}
 }

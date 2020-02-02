@@ -25,3 +25,7 @@ if(sprite_index == badsoil)
 	}
 	sprite_index = sPlant;
 }
+
+
+if(sprite_index == sPlant)
+	sprite_index = IdleBadWeed;
