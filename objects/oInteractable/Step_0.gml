@@ -1,5 +1,6 @@
 if(owner > -1)
 {
+	throwOwner = owner;
 	x = owner.x
 	y = owner.y-20
 	depth = owner.depth-1
@@ -30,4 +31,10 @@ if (thrown)
 	y += yvel;
 	xvel *= 0.95;
 	yvel *= 0.95;
+	var inst = instance_place(x,y,oPlayer);
+	if (inst != noone && inst != throwOwner)
+	{
+		inst.stunTimer = 0;
+		instance_destroy();
+	}
 }
