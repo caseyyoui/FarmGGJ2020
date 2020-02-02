@@ -1,23 +1,14 @@
 {
-    "id": "17ba75ee-f0db-402f-a393-526435ed4b46",
+    "id": "fd500189-9012-46d2-afa6-c1b8a42458a3",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oWeedSeed",
+    "name": "oWeed",
     "eventList": [
-        {
-            "id": "df2e83d9-c6ee-4b18-8024-84d8be97eca7",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "17ba75ee-f0db-402f-a393-526435ed4b46"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "fa4bdee5-8af5-4b5c-a12d-8680ac42efaf",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "072783a1-44ea-4f14-962c-e22185c5c16d",
+    "spriteId": "5009ec7c-0185-4b56-88bb-819315036fe1",
     "visible": true
 }

@@ -40,11 +40,14 @@ else if (dy > 0.5)
 {
 	sprite_index = sCaseyFront
 }
-
+px = x;
 x += dx * movementSpeed;
 y += dy * movementSpeed;
 
-
+if(controllerID == 0 && x > 484)
+	x = px;
+else if (controllerID == 1 && x < 484)
+	x = px;
 
 if (alert>-1){
 	alert.anchor_x = x+alert_offset_x
@@ -99,6 +102,7 @@ if (inventory != -1 && gamepad_button_check_pressed(controllerID, gp_shoulderrb)
 
 // dropping
 if (inventory != -1 &&  gamepad_button_check_pressed(controllerID, gp_face3)) {
+	inventory.dropped = true;
 	inventory.owner = -1;
 	inventory = -1;
 }

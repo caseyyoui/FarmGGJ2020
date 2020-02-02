@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "5ae3a9fc-88f8-461d-a3cd-9ad0368105c9",
+            "Value": {
+                "id": "084999e6-057b-4ca4-b091-0abb887d1069",
+                "resourcePath": "objects\/oPlot\/oPlot.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5fa608ed-7048-4be3-af22-bae9d7b8023c",
             "Value": {
                 "id": "8b9f5946-d73c-40c4-9b3e-c51043f1219e",
@@ -471,6 +479,14 @@
             }
         },
         {
+            "Key": "f2ca2566-9bb2-4f6a-8c3b-77c882a41cdf",
+            "Value": {
+                "id": "2e8a68d1-14c4-482c-9bfe-5ce22890b40b",
+                "resourcePath": "objects\/oPlant\/oPlant.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "f68a8d5f-3cd9-47a1-b3f1-a689e220fcc8",
@@ -500,6 +516,14 @@
                 "id": "1b34d7bb-7bdc-4981-ae7d-72c24f91e82d",
                 "resourcePath": "sprites\/Shop\/Shop.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fd500189-9012-46d2-afa6-c1b8a42458a3",
+            "Value": {
+                "id": "e58da469-4909-4a6f-a41e-b53de7dca41d",
+                "resourcePath": "objects\/oWeed\/oWeed.yy",
+                "resourceType": "GMObject"
             }
         }
     ],
