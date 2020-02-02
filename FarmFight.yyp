@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "c6ba154c-4740-468c-bf94-7519f6f4f87e",
+            "Value": {
+                "id": "08bf6cbb-c7e8-4fd6-877b-61b930466cec",
+                "resourcePath": "sprites\/IdleBadWeed\/IdleBadWeed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "61ca49f0-f242-48c7-a509-1ab7077e5ca6",
