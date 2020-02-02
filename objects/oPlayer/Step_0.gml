@@ -66,7 +66,13 @@ if (alert>-1){
 	alert.anchor_x = x+alert_offset_x
 	alert.anchor_y = y+alert_offset_y
 }
-
+if (inventory !=-1){
+	if (inventory.name == "Bucket"){
+		if (place_meeting(inventory.x, inventory.y, oWell)){
+			inventory.filled = true
+		}
+	}
+}
 if(inventory != -1 && gamepad_button_check_pressed(controllerID, gp_face1))
 {
 	if(inventory.object_index == oSeed)
@@ -121,8 +127,15 @@ if (place_meeting(x,y,oShopItem) && (keyboard_check_pressed(vk_enter) || gamepad
 					var inst = instance_create_depth(x,y,0,shopItem.item)
 					inst.owner = id;
 					inventory = inst;
+					inst.spawnRef = shopItem;
 					shopItem.numLeft--;
 				}
+			}else{
+				availableCurrency -= shopItem.price;
+					var inst = instance_create_depth(x,y,0,shopItem.item)
+					inst.owner = id;
+					inventory = inst;
+					inst.spawnRef = shopItem;
 			}
 			
 		}else{

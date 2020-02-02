@@ -5,6 +5,6 @@ dropped_time = 0
 time_update = 1
 xvel = 0;
 yvel = 0;
-
+name=""
 thrown = false;
 dropped = false
