@@ -9,3 +9,5 @@ currencyUpdate = currencyRate
 image_xscale = 2;
 image_yscale = 2;
 movementSpeed = 3;
+adx = 0;
+ady = 0;

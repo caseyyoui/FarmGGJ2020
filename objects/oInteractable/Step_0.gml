@@ -1,4 +1,4 @@
-if(owner > -1) 
+if(owner > -1)
 {
 	x = owner.x
 	y = owner.y-20
@@ -18,10 +18,16 @@ if(time_update < 0)
 			instance_destroy();
 		}
 		dropped_time++;
-		
+
 	}
-	
+
 	time_update += 1;
 }
 
-
+if (thrown)
+{
+	x += xvel;
+	y += yvel;
+	xvel *= 0.95;
+	yvel *= 0.95;
+}

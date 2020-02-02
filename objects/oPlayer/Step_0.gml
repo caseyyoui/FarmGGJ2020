@@ -4,6 +4,9 @@ depth=-y
 var dx = gamepad_axis_value(controllerID, gp_axislh);
 var dy = gamepad_axis_value(controllerID, gp_axislv);
 
+adx = gamepad_axis_value(controllerID, gp_axisrh);
+ady = gamepad_axis_value(controllerID, gp_axisrv);
+
 // deadzone
 if(abs(dx) < .1)
 	dx = 0;
@@ -58,8 +61,18 @@ else if (place_meeting(x,y,oShopItem) && gamepad_button_check_pressed(controller
 	
 }
 
+// throwing
+var throwPower = sqrt(adx*adx + ady*ady) ;
+if (inventory != -1 && gamepad_button_check_pressed(controllerID, gp_shoulderrb) && throwPower > .25)
+{
+	inventory.xvel = adx * 20
+	inventory.yvel = ady * 20
+	inventory.thrown = true;
+	inventory.owner = -1;
+	inventory = -1;
+}
 
-
+// dropping
 if (inventory != -1 &&  gamepad_button_check_pressed(controllerID, gp_face3)) {
 	inventory.owner = -1;
 	inventory = -1;
