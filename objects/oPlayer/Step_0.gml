@@ -7,13 +7,26 @@ if(stunTimer >= 0)
 	stunTimer += delta_time / 1000000;
 	if(stunTimer > 1.0)
 		stunTimer = -1;
-	
+
 	return;
 }
 
 var dx = gamepad_axis_value(controllerID, gp_axislh);
 var dy = gamepad_axis_value(controllerID, gp_axislv);
 
+//temporary:
+if (keyboard_check_pressed(vk_left)){
+	x -= movementSpeed*5;
+}
+if (keyboard_check_pressed(vk_right)){
+	x += movementSpeed*5;
+}
+if (keyboard_check_pressed(vk_up)){
+	y -= movementSpeed*5;
+}
+if (keyboard_check_pressed(vk_down)){
+	y += movementSpeed*5;
+}
 adx = gamepad_axis_value(controllerID, gp_axisrh);
 ady = gamepad_axis_value(controllerID, gp_axisrv);
 
@@ -54,8 +67,33 @@ if (alert>-1){
 	alert.anchor_y = y+alert_offset_y
 }
 
-//picks up a non-shop item
-if (place_meeting(x,y,oInteractable) && gamepad_button_check_pressed(controllerID, gp_face1)){
+if(inventory != -1 && gamepad_button_check_pressed(controllerID, gp_face1))
+{
+	if(inventory.object_index == oSeed)
+	{
+
+		if(place_meeting(x, y, oDarkPlot) || place_meeting(x, y, oLightPlot))
+		{
+			//we are on a square, and have our item.
+			//Get current square.
+			var inst = instance_place(floor(x), floor(y), oDarkPlot)
+
+			if(inst == noone)
+			{
+				inst = instance_place(floor(x),floor(y), oLightPlot)
+			}
+
+			inventory.owner = -1
+			inventory.x = inst.x + inst.sprite_width / 2
+			inventory.y = inst.y + inst.sprite_height / 2
+			inventory = -1
+		}
+	}
+}
+
+
+else if (place_meeting(x,y,oInteractable)
+&& (keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(controllerID, gp_face1))){
 	if (inventory==-1)// hand is empty
 	{
 		var inst = instance_place(x,y,oInteractable)
@@ -66,16 +104,16 @@ if (place_meeting(x,y,oInteractable) && gamepad_button_check_pressed(controllerI
 		if (inst != inventory){
 			alertMessage="You already have an item!"
 		}
-		
+
 	}
 }
 
 // picks up from shop
-if (place_meeting(x,y,oShopItem) && gamepad_button_check_pressed(controllerID, gp_face1)){
+if (place_meeting(x,y,oShopItem) && (keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(controllerID, gp_face1))){
 	if (inventory==-1)// hand is empty
 	{
 		var shopItem = instance_place(x,y,oShopItem);
-	
+
 		if (availableCurrency >= shopItem.price){
 			availableCurrency -= shopItem.price;
 			var inst = instance_create_depth(x,y,0,shopItem.item)
@@ -101,7 +139,7 @@ if (inventory != -1 && gamepad_button_check_pressed(controllerID, gp_shoulderrb)
 }
 
 // dropping
-if (inventory != -1 &&  gamepad_button_check_pressed(controllerID, gp_face3)) {
+if (inventory != -1 &&  (keyboard_check_pressed(vk_backspace) || gamepad_button_check_pressed(controllerID, gp_face3))) {
 	inventory.dropped = true;
 	inventory.owner = -1;
 	inventory = -1;
@@ -139,4 +177,3 @@ if (alertMessage != "" && alert==-1){
 	alert= inst;
 	alertMessage = ""
 }
-
