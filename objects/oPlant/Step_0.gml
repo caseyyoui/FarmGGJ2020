@@ -4,7 +4,7 @@ if (grown =false){
 	watered= false;
 	if(place_meeting(x,y, oBucket)){
 		var inst = instance_place(floor(x), floor(y), oBucket)
-		if (inst.filled = true){
+		if ( (inst.filled = true) && inst.owner != -1){
 			watered=true
 		}
 	
@@ -13,7 +13,7 @@ if (grown =false){
 	{
 		//make loading bar if none yet
 		if (loadingBar == -1){
-			var inst = instance_create_depth(x-20,y-32,-1,oLoadingBar);
+			var inst = instance_create_depth(x-20,y-32,depth-3,oLoadingBar);
 			loadingBar = inst;
 			loadingBar.owner = id;
 			loadingBar.maxProgress = timeToGrow
