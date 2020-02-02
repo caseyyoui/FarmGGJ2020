@@ -38,8 +38,32 @@ if (alert>-1){
 	alert.anchor_y = y+alert_offset_y
 }
 
+if(inventory != -1 && gamepad_button_check_pressed(controllerID, gp_face1))
+{
+	if(inventory.object_index == oSeed)
+	{
+	
+		if(place_meeting(x, y, oDarkPlot) || place_meeting(x, y, oLightPlot))
+		{
+			//we are on a square, and have our item.
+			//Get current square.
+			var inst = instance_place(floor(x), floor(y), oDarkPlot)
+		
+			if(inst == noone)
+			{
+				inst = instance_place(floor(x),floor(y), oLightPlot)
+			}
+		
+			inventory.owner = -1
+			inventory.x = inst.x + inst.sprite_width / 2
+			inventory.y = inst.y + inst.sprite_height / 2
+			inventory = -1
+		}
+	}
+}
+
 //picks up a non-shop item
-if (place_meeting(x,y,oInteractable) && gamepad_button_check_pressed(controllerID, gp_face1)){
+else if (place_meeting(x,y,oInteractable) && gamepad_button_check_pressed(controllerID, gp_face1)){
 	if (inventory==-1)// hand is empty
 	{
 		var inst = instance_place(x,y,oInteractable)
