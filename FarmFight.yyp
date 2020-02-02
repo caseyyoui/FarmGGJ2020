@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "168ccffe-4d90-410c-8d0a-e5a06cb58c72",
+            "Value": {
+                "id": "15ed4a16-e89f-4771-9413-3e24eb9617cc",
+                "resourcePath": "sprites\/sWell\/sWell.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "17ba75ee-f0db-402f-a393-526435ed4b46",
             "Value": {
                 "id": "d7656eba-0527-467f-8b74-f0e44ef96b09",
@@ -135,6 +143,14 @@
             }
         },
         {
+            "Key": "2a493eb5-0e1b-4b21-8c8b-0b1a62aab432",
+            "Value": {
+                "id": "88f2b1fa-7a3e-439f-bc1d-2c7b295f0a28",
+                "resourcePath": "objects\/oBucket\/oBucket.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "34def1a2-4daa-4959-9763-5dc5fbbf9203",
             "Value": {
                 "id": "576df5c3-387e-4ea9-a488-a9ad5ee6fc6b",
@@ -148,6 +164,14 @@
                 "id": "72f0c87c-ead6-4422-af5b-c2313d93da4f",
                 "resourcePath": "rooms\/room0\/room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "40ab9a12-2d8a-43b6-965d-b28c09d15169",
+            "Value": {
+                "id": "8851932c-89df-49f5-a934-6e8287442c64",
+                "resourcePath": "sprites\/sBucketFilled\/sBucketFilled.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -219,6 +243,14 @@
             "Value": {
                 "id": "016c6a52-e0a5-4ccf-815e-f88629692be2",
                 "resourcePath": "objects\/oSeed\/oSeed.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "63ad082b-5a6e-4992-b168-9172d5ee2f80",
+            "Value": {
+                "id": "2d79726d-dadc-4e26-aadb-28fbc787416a",
+                "resourcePath": "objects\/oWell\/oWell.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -332,6 +364,14 @@
                 "id": "188dfae8-0355-4777-a52c-0ae170f2e7c5",
                 "resourcePath": "tilesets\/tileset4\/tileset4.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "9cea35ca-5cc9-4aef-ac89-e170cfcfaa5c",
+            "Value": {
+                "id": "0b69b8d1-3336-4579-b06a-ae4cd64261ab",
+                "resourcePath": "sprites\/sBucketEmpty\/sBucketEmpty.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

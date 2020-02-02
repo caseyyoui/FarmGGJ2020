@@ -1,14 +1,14 @@
 {
-    "id": "2a493eb5-0e1b-4b21-8c8b-0b1a62aab432",
+    "id": "63ad082b-5a6e-4992-b168-9172d5ee2f80",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oBucket",
+    "name": "oWell",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "fa4bdee5-8af5-4b5c-a12d-8680ac42efaf",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "9cea35ca-5cc9-4aef-ac89-e170cfcfaa5c",
+    "spriteId": "168ccffe-4d90-410c-8d0a-e5a06cb58c72",
     "visible": true
 }
