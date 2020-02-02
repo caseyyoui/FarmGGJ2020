@@ -3,7 +3,7 @@
 inventory = -1;
 
 //Money variables
-availableCurrency = 0
+availableCurrency = 10 // start with 10 gold
 currencyRate = 1
 currencyUpdate = currencyRate
 image_xscale = 2;
