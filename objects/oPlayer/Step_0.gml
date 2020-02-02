@@ -2,6 +2,11 @@
 // You can write your code in this editor
 depth=-y
 
+if(playerScore == 16)
+{
+	oGameManager.winner = controllerID;
+}
+
 if(stunTimer >= 0)
 {
 	stunTimer += delta_time / 1000000;
@@ -129,6 +134,7 @@ if(inventory.object_index == oShovel && gamepad_button_check_pressed(controllerI
 		instance_destroy(inventory);
 		instance_destroy(inst);
 		inventory = -1;
+		audio_play_sound(snd_shovel, 0, false);
 	}
 }
 
@@ -154,6 +160,7 @@ if (place_meeting(x,y,oShopItem) && (keyboard_check_pressed(vk_enter) || gamepad
 					inst.owner = id;
 					inventory = inst;
 					inst.spawnRef = shopItem;
+					audio_play_sound(snd_buy,0,false);
 			}
 			
 		}else{

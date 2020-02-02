@@ -11,6 +11,24 @@ if(sprite_index == SunFlower)
 	sprite_index = IdleSunflower;
 	if(x > 484)
 	{
-		
+		for(var i = 0; i < instance_number(oPlayer); i++)
+		{
+			var inst = instance_find(oPlayer,i);
+			if(inst.controllerID == 1)
+			{
+				inst.playerScore++;
+			}
+		}
+	}
+	else
+	{
+		for(var i = 0; i < instance_number(oPlayer); i++)
+		{
+			var inst = instance_find(oPlayer,i);
+			if(inst.controllerID == 0)
+			{
+				inst.playerScore++;
+			}
+		}
 	}
 }

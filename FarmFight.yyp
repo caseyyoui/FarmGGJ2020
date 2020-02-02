@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "87d2ab08-d6eb-4bc3-b96b-78442b51fa17",
+            "Value": {
+                "id": "4cd0cc9c-339d-4dda-a121-cf955e9198e9",
+                "resourcePath": "sounds\/snd_buy\/snd_buy.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "8bd0dbb1-ddcc-4020-99ad-f0eb7b68ce00",
             "Value": {
                 "id": "081f3fa7-7762-4117-9d92-49f6d01a0458",
@@ -567,6 +575,14 @@
             }
         },
         {
+            "Key": "b88b65cd-3b96-4312-8124-6a5b93aeb2b5",
+            "Value": {
+                "id": "19cb3f41-6303-4c5f-96a1-8a56f19ec58b",
+                "resourcePath": "sounds\/snd_shovel\/snd_shovel.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b91e677e-c650-4c41-9b5a-d05cc9f1c34a",
             "Value": {
                 "id": "92d032ad-f031-4d33-a569-77b2ddf2caba",
@@ -579,6 +595,14 @@
             "Value": {
                 "id": "90acb088-3a7c-45e0-9b14-3ffdd32eb93a",
                 "resourcePath": "objects\/oleafs\/oleafs.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bbfbaff7-117b-47aa-acda-663008ebbe50",
+            "Value": {
+                "id": "1225997e-afb2-4b4c-a779-05ff3b5dfa0a",
+                "resourcePath": "objects\/oGameManager\/oGameManager.yy",
                 "resourceType": "GMObject"
             }
         },
