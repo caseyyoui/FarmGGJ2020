@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "572fc7c8-3a5e-4396-b44e-fa590d79e7f3",
+            "Value": {
+                "id": "2bb98688-4664-40fe-aa50-27d3326f8ce9",
+                "resourcePath": "objects\/oLoadingBar\/oLoadingBar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5a57671b-e42f-4ecd-97c1-67749869f059",
             "Value": {
                 "id": "09bb6c58-d04b-4d50-a07e-0ae7ac3ecba1",

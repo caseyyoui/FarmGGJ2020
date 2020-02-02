@@ -1,4 +1,5 @@
-timeToGrow = 15;
+timeToGrow = 5;
 growTime = 0;
 image_speed = 0;
-watered = true;
+watered = false;
+waterUnits = 0;
