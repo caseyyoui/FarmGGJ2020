@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "3c6e8499-1150-4255-a057-428920acc521",
+            "Value": {
+                "id": "794b0904-5876-4268-ac8e-ca815bbb38b9",
+                "resourcePath": "sprites\/badsoil\/badsoil.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3d376547-7430-4c62-ae0d-ba7e85b15d0c",
             "Value": {
                 "id": "72f0c87c-ead6-4422-af5b-c2313d93da4f",
@@ -308,6 +316,14 @@
                 "id": "200612d2-bf24-4fff-8994-2eb17facbc8e",
                 "resourcePath": "objects\/oShovel\/oShovel.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7f5282b3-56f7-45be-8310-e94ec0554c0d",
+            "Value": {
+                "id": "58a217e9-4e62-4c5f-8e04-29e9bc73a73c",
+                "resourcePath": "sprites\/SunFlower\/SunFlower.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
