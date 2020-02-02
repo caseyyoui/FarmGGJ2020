@@ -68,9 +68,10 @@ if (alert>-1){
 }
 if (inventory !=-1){
 	if (inventory.name == "Bucket"){
-		if (place_meeting(inventory.x, inventory.y, oWell)){
+		if (place_meeting(inventory.x, inventory.y, oWell)&& gamepad_button_check_pressed(controllerID, gp_face1)){
 			inventory.filled = true
-		}
+		} 
+		
 	}
 }
 if(inventory != -1 && gamepad_button_check_pressed(controllerID, gp_face1))
