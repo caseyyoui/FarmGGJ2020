@@ -57,16 +57,14 @@ else if (place_meeting(x,y,oShopItem) && gamepad_button_check_pressed(controller
 			inventory = inst;
 		}
 	}
-	
-	
 }
 
 // throwing
 var throwPower = sqrt(adx*adx + ady*ady) ;
 if (inventory != -1 && gamepad_button_check_pressed(controllerID, gp_shoulderrb) && throwPower > .25)
 {
-	inventory.xvel = adx * 20
-	inventory.yvel = ady * 20
+	inventory.xvel = adx * 30;
+	inventory.yvel = ady * 30;
 	inventory.thrown = true;
 	inventory.owner = -1;
 	inventory = -1;
