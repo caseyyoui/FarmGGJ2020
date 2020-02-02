@@ -10,10 +10,22 @@ if(thrown)
 	if(vel < 1)
 	{
 		var inst = instance_place(x,y,oPlot);
-		if(inst != noone && inst.plant == -1)
+		if(inst != noone )
 		{
-			inst.plant = instance_create_depth(inst.x + 32, inst.y + 32, depth, oWeed);
-			instance_destroy();
+			if(inst.plant == -1)
+			{
+				inst.plant = instance_create_depth(inst.x + 32, inst.y + 32, depth, oWeed);
+				instance_destroy();
+			}
+			else if(inst.plant.object_index == oPlant)
+			{
+				//Destroy
+				if(inst.plant.grown == false)
+				{
+					instance_destroy( inst.plant)
+					inst.plant = -1
+				}
+			}			
 		}
 	}
 }
