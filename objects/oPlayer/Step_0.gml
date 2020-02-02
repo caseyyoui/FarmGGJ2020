@@ -115,10 +115,16 @@ if (place_meeting(x,y,oShopItem) && (keyboard_check_pressed(vk_enter) || gamepad
 		var shopItem = instance_place(x,y,oShopItem);
 
 		if (availableCurrency >= shopItem.price){
-			availableCurrency -= shopItem.price;
-			var inst = instance_create_depth(x,y,0,shopItem.item)
-			inst.owner = id;
-			inventory = inst;
+			if (shopItem.limit != -1){
+				if (shopItem.numLeft > 0){
+					availableCurrency -= shopItem.price;
+					var inst = instance_create_depth(x,y,0,shopItem.item)
+					inst.owner = id;
+					inventory = inst;
+					shopItem.numLeft--;
+				}
+			}
+			
 		}else{
 			alertMessage = "Not enough money!"
 		}
