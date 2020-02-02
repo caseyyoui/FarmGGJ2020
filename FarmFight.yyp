@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "1936de4d-874e-4f5e-af87-c42e7de9a16d",
+            "Value": {
+                "id": "a6541244-c9a3-43f6-85b3-a941d51e8fcb",
+                "resourcePath": "sprites\/sLoadingBar\/sLoadingBar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1e0751c6-8663-475a-8e9c-656fb3578ac8",
             "Value": {
                 "id": "c7aca6dd-dd83-4565-a52d-1d3ad5b69709",
