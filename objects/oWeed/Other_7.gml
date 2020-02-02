@@ -1,4 +1,4 @@
-if(sprite_index == ESoil)
+if(sprite_index == badsoil)
 {
 	for(var dir = 0; dir < 4; dir++)
 	{
@@ -14,7 +14,7 @@ if(sprite_index == ESoil)
 			plot = instance_position(x,y - 64,oPlot);
 		}else if(dir == 3)
 		{
-			plot = instance_position(x,y + y,oPlot);
+			plot = instance_position(x,y + 64,oPlot);
 		}
 
 		if(plot != noone && plot.plant == -1)
