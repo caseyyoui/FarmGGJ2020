@@ -1,8 +1,21 @@
 /// @description Insert description here
 // You can write your code in this editor
 depth=-y
+
+if(stunTimer >= 0)
+{
+	stunTimer += delta_time / 1000000;
+	if(stunTimer > 1.0)
+		stunTimer = -1;
+	
+	return;
+}
+
 var dx = gamepad_axis_value(controllerID, gp_axislh);
 var dy = gamepad_axis_value(controllerID, gp_axislv);
+
+adx = gamepad_axis_value(controllerID, gp_axisrh);
+ady = gamepad_axis_value(controllerID, gp_axisrv);
 
 // deadzone
 if(abs(dx) < .1)
@@ -95,12 +108,20 @@ if (place_meeting(x,y,oShopItem) && gamepad_button_check_pressed(controllerID, g
 	}else{
 		alertMessage="You already have an item!"
 	}
-	
-	
 }
 
+// throwing
+var throwPower = sqrt(adx*adx + ady*ady) ;
+if (inventory != -1 && gamepad_button_check_pressed(controllerID, gp_shoulderrb) && throwPower > .25)
+{
+	inventory.xvel = adx * 30;
+	inventory.yvel = ady * 30;
+	inventory.thrown = true;
+	inventory.owner = -1;
+	inventory = -1;
+}
 
-
+// dropping
 if (inventory != -1 &&  gamepad_button_check_pressed(controllerID, gp_face3)) {
 	inventory.owner = -1;
 	inventory = -1;

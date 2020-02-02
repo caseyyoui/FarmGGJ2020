@@ -13,3 +13,7 @@ alert = -1
 alert_offset_x = 30
 alert_offset_y = -64
 alertMessage = ""
+adx = 0;
+ady = 0;
+
+stunTimer = -1;
