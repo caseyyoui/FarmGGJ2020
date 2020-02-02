@@ -9,3 +9,7 @@ currencyUpdate = currencyRate
 image_xscale = 2;
 image_yscale = 2;
 movementSpeed = 3;
+alert = -1
+alert_offset_x = 30
+alert_offset_y = -64
+alertMessage = ""

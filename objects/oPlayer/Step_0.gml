@@ -31,6 +31,13 @@ else if (dy > 0.5)
 x += dx * movementSpeed;
 y += dy * movementSpeed;
 
+
+
+if (alert>-1){
+	alert.anchor_x = x+alert_offset_x
+	alert.anchor_y = y+alert_offset_y
+}
+
 //picks up a non-shop item
 if (place_meeting(x,y,oInteractable) && gamepad_button_check_pressed(controllerID, gp_face1)){
 	if (inventory==-1)// hand is empty
@@ -38,11 +45,17 @@ if (place_meeting(x,y,oInteractable) && gamepad_button_check_pressed(controllerI
 		var inst = instance_place(x,y,oInteractable)
 		inst.owner = id;
 		inventory = inst;
+	}else {
+		var inst = instance_place(x,y,oInteractable)
+		if (inst != inventory){
+			alertMessage="You already have an item!"
+		}
+		
 	}
 }
 
 // picks up from shop
-else if (place_meeting(x,y,oShopItem) && gamepad_button_check_pressed(controllerID, gp_face1)){
+if (place_meeting(x,y,oShopItem) && gamepad_button_check_pressed(controllerID, gp_face1)){
 	if (inventory==-1)// hand is empty
 	{
 		var shopItem = instance_place(x,y,oShopItem);
@@ -52,7 +65,11 @@ else if (place_meeting(x,y,oShopItem) && gamepad_button_check_pressed(controller
 			var inst = instance_create_depth(x,y,0,shopItem.item)
 			inst.owner = id;
 			inventory = inst;
+		}else{
+			alertMessage = "Not enough money!"
 		}
+	}else{
+		alertMessage="You already have an item!"
 	}
 	
 	
@@ -75,5 +92,26 @@ if(currencyUpdate < 0)
 	availableCurrency++;
 	currencyUpdate += currencyRate;
 }
-
+if (alertMessage != "" && alert==-1){
+	var alert_x = x+alert_offset_x
+	var alert_y = y+alert_offset_y
+	var inst = instance_create_depth(alert_x,alert_y,0,oAlert)
+	inst.anchor_x = alert_x
+	inst.anchor_y = alert_y
+	inst.owner = id;
+	inst.msg = alertMessage
+	alert= inst;
+	alertMessage = ""
+}else if(alertMessage != "" && alert!=-1){
+	instance_destroy(alert);
+	var alert_x = x+alert_offset_x
+	var alert_y = y+alert_offset_y
+	var inst = instance_create_depth(alert_x,alert_y,0,oAlert)
+	inst.anchor_x = alert_x
+	inst.anchor_y = alert_y
+	inst.owner = id;
+	inst.msg = alertMessage
+	alert= inst;
+	alertMessage = ""
+}
 
