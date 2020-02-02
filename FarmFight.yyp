@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "69da0fd2-c47a-462b-bacd-08aacd809147",
+            "Value": {
+                "id": "f6122911-9ed5-4b4c-b159-50027e562ccb",
+                "resourcePath": "sprites\/ESoil\/ESoil.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "719eb40d-c0c7-4c9c-8084-f8e06a34249b",
             "Value": {
                 "id": "a4220cc0-4030-4e90-89a4-e221e156d108",
